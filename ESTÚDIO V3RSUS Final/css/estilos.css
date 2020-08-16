@@ -1,0 +1,554 @@
+/*Modicações Gerais*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+/*barra de navegação*/
+header, .navbar {
+  background-color: #1a1a1a;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 70px;
+}
+
+.navbar-brand {
+  color: #FFF;
+  padding: 0;
+}
+.navbar-brand:hover {
+  color: #FFF;
+}
+
+.navbar-links a {
+  color: #FFF;
+  font-weight: bolder;
+}
+
+.navbar-expand-lg .navbar-nav .nav-links {
+  padding: 1rem, 8rem;
+}
+
+/*Slide*/
+
+
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 45px;
+  margin-bottom: 40px;
+  color: #FFF;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #65DAF9;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #65DAF9;
+}
+
+.carousel-indicators .active {
+  background-color: #FFF;
+}
+
+/* Sobre o Estúdio */
+#about-area {
+  background-color: #f1f1f1; 
+}
+
+#about-area::before { 
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+}
+
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60%;
+  left: 42.5%;
+}
+
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 30px;
+}
+
+#about-list i {
+  color: #65DAF9;
+  margin-right: 15px;
+}
+
+/* nossos serviços */
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+  transition: .5s;
+}
+
+.service-box i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.service-box h4 {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+  color: #65DAF9;
+}
+/* Galeria de Imagens */
+.gallery-area {
+  background-color: #f9f9f9;
+}
+.col-md-4 {
+  margin-bottom: 25px;
+}
+
+/* Depoimentos */
+.card{
+  height: 100%;
+  text-align: center;
+  
+}
+
+.stars {
+  text-align: center;
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.card-text {
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* Promoção e Novidaddes */
+#news-area {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #65DAF9;
+  display: inline;
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #65DAF9;
+  background-color: #65DAF9;
+  text-transform: uppercase;
+  color: #FFF;
+  height: 40px;
+  width: 100px;
+  padding: 0 30px;
+  margin-left: -10px;
+  position: absolute;
+  transition: .5s;
+  
+}
+
+#news-btn:hover {
+  background-color: #65DAF9;
+  color: #000;
+}
+
+.zapstyle{
+  color: white;
+}
+.border-whatsapp{
+  background-color: rgb(64, 189, 22);
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 50%;
+  margin-left: 25%
+}
+
+/*footer*/
+/* rede sociais */
+.iconsHeader {
+  padding: 5px;
+  padding-top: 15px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none !important;
+}
+.fa-facebook {
+    color: blue;
+    font-size: 2em;
+}
+.fa-youtube {
+    color: white;
+    font-size: 2em;
+}
+.fa-youtube {
+    color: red;
+    font-size: 2em;
+}
+.fa-twitter{
+  font-size: 2em;
+}
+.fa-instagram{
+  font-size: 2em;
+}
+
+.zapstyle{
+    color: white;
+}
+
+.nav{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+  /*V3RSUS*/
+  #about-area img {
+    margin-bottom: 90px;
+  }
+/*contatos*/
+#contact-area{
+  text-align: center;
+}
+
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #3EC1D5;
+}
+
+.contact-box i {
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #3EC1D5;
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#email-input {
+  width: 40%;
+}
+
+#contact-form .main-btn {
+  width: 120px;
+  height: 50px;
+  margin-bottom: 12px;
+}
+
+#contact-form .main-btn:hover {
+  color: #000;
+}
+
+/*copy-area*/
+#copy-area {
+  background-color: #f1f1f1;
+  padding-top: 10px;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: -10px;
+}
+
+#copy-area .container-fluid a {
+  font-weight: bold;
+  color: #444;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #3EC1D5;
+}
+
+/*responsividade para width 1024px*/
+@media(max-width: 1024px){
+
+  /* modifcações gerais */
+ 
+  .container {
+    padding: 20px 0;
+  }
+
+  /*slider*/
+
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 40px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 22px;
+    margin-bottom: 52px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+}
+
+/*responsividade para width 768px*/
+@media(max-width: 768px){
+
+  /* modifcações gerais */
+  .container {
+    padding: 20px 0;
+  }
+
+  /*slider*/
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption {
+    top: 40%;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 26px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+
+  /*V3RSUS*/
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  #about-area p {
+    text-align: left;
+  }
+  
+  /*Promoção E Novidades*/
+  #news-area .main-title {
+    font-size: 26px;
+    margin-bottom: 2px 1px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  #news-btn {
+    margin-left: -60px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+
+  /* Promoções e Novidades */
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 50%;
+  }
+
+}
+
+/*responsividade para width 425px */
+@media(max-width: 425px) {
+  
+  /*slider*/
+  #mainSlider {
+    margin-top: 70px;
+  }
+  #mainSlider .carousel-caption {
+    top: 5%;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  /*V3RSUS*/
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  #about-area p {
+    text-align: left;
+  }
+  
+  /*Promoção E Novidades*/
+
+  #news-area .main-title {
+    font-size: 26px;
+    margin-bottom: 2px 1px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  #news-btn {
+    margin-left: -60px;
+  }
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESTÚDIO V3RSUS</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!--Fonte Awesome-->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!--Progress Bar-->
+  <script src="./js/progressBar.min.js"></script>
+  <!--Javascript-->
+  <script src="./js/script.js"></script>
+  <!--Css-->
+  <link rel="stylesheet" href="./css/estilos.css">
+  <!--Fonte Google Roboto-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!--Css da Galeria-->
+  <link rel="stylesheet" href="./css/baguetteBox.css">  
+  <!--script da galeria-->
+  <script src="./js/scriptGallery.js"></script>
+  <script src="./js/baguetteBox.js"></script>
+</head>
+
+<body>
+  <header class="container-fluid" id="nav-container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <a href="VERSUS.html">
+        <img id="logo" src="./img/logoW.png" alt="Estúdio V3RSUS">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+        <div class="navbar-nav text-center">
+          <a class="nav-link" id="home-menu" href="#mainSlider">Home</a>
+          <a class="nav-link" id="about-menu" href="#about-area">V3RSUS</a>
+          <a class="nav-link" id="services-menu" href="#services-area">Serviços</a>
+          <a class="nav-link" id="galeria-menu" href="#gallery-area">Galeria</a>
+          <a class="nav-link" id="depoimento-menu" href="#testimonial-area">Depoimentos</a>
+          <a class="nav-link" id="contact-menu" href="#contact-area">Contatos</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid" >
+      <!-- MainSlider -->
+      <section >
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/banner1.jpg" alt="01">
+              <div class="carousel-caption d-md-block">
+                <h2>Seja bem vindo ao estúdios V3RSUS!</h2>
+                <p>Seu sonho começa aqui! Com os melhores profissionais e equipamentos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/banner2.jpg" alt="02">
+              <div class="carousel-caption d-md-block">
+                <h2>Equipamentos e instrumentos escolhidos a dedo para captar e registrar o seu melhor momento.</h2>
+                <p>Venha ver nossos equipamentos e nossos Instrumentos de qualidade.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="translucido">
+                <img class="d-block w-100" src="./img/banner3.jpg" alt="03">
+              </div>
+              <div class="carousel-caption d-md-block">
+                <h2>Mais que estúdio, um lugar aconchegante para se sentir em casa.</h2>
+                <p>O espaço para que seu sonho tome forma!</p>
+              </div>
+            </div>
+          </div>
+          <a href="#mainSlider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a href="#mainSlider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+      <!-- Sobre o Estúdio -->
+      <section id="about-area" class="container-fluid p-3 mb-2 bg-light">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title">VERSUS</h3>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid mb-3" src="./img/Marcos.jpg">
+          </div>
+          <div class="col-md-6">
+            <h3 class="about-title">Um Estúdio que visa realizar sonhos!</h3>
+            <p>
+              Aqui seu sonho é levado à sério, com um espaço, know-how, instrumentos e equipamentos de ótima qualidade
+              e de marcas de conhecimento geral, atenção e comprometimento com um preço acessível realizar o seu sonho.
+            </p>
+            <p>Veja nossos diferenciais:</p>
+            <ul id="about-list">
+              <li><i class="fas fa-check"></i>Carinho, atenção e total fidelidade ao artista e sua obra.</li>
+              <li><i class="fas fa-check"></i>Objetivo do Estúdio é acreditar no trabalho e no sucesso desse artista.
+              </li>
+              <li><i class="fas fa-check"></i>Dispostos a ajudarem esses artistas a alcançarem seus objetivos.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Serviços do Estúdio -->
+      <section class="container p-3" id="services-area">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title">Nossos Serviços</h3>
+          </div>
+          <div class="col-md-4 service-box">
+            <i class="fas fa-record-vinyl"></i>
+            <h4>Gravação</h4>
+            <p>Utilizamos gravações em dispositivos modernos para que a seu sonho começe a tormar forma.</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <i class="fas fa-sliders-h"></i>
+            <h4>Mixagem</h4>
+            <p>Utilizamos mixagem em dispositivos modernos e mais utilizados no mercado digital.</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <i class="fab fa-soundcloud"></i>
+            <h4>Arranjos e Linhas Instrumentais</h4>
+            <p>Utilizamos os metodos mais modernos para a criação dos seus arranjos e linhas instrumentais.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 service-box">
+            <i class="fas fa-user-tie"></i>
+            <h4>Assessória</h4>
+            <p>Realizamos uma consultoria para alavancar a sua carreira musical.</p>
+          </div>
+          <div class="col-md-4 service-box">
+            <i class="fas fa-headphones-alt"></i>
+            <h4>Fonográfia e Audiovisual</h4>
+            <p>Temos alta capacidade técnica para o registro sonoro, a edição, a mixagem e a pós-produção musical.
+            </p>
+          </div>
+          <div class="col-md-4 service-box">
+            <i class="fas fa-file-audio"></i>
+            <h4>Serviços Online</h4>
+            <p>Com advento da internet podemos realizar nossas produções pela internet.</p>
+          </div>
+        </div>
+      </section>
+      <!--Galeria de Imagens-->
+      <section class="container-fluid p-3 mb-2 bg-light" id="gallery-area">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title">Galeria de Imagens</h3>
+          </div>
+        </div>
+        <div class="gallery row">
+          <div class="col-md-4 col-lg-4">
+            <a href="./img/img1.jpg">
+              <img src="./img/img1.jpg" class="img-fluid" alt="1º img">
+            </a>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <a href="./img/img2.jpg">
+              <img src="./img/img2.jpg" class="img-fluid" alt="2º img">
+            </a>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <a href="./img/img3.jpg">
+              <img src="./img/img3.jpg" class="img-fluid" alt="3º img">
+            </a>
+          </div>
+        <!--Consertar o javascript da galeria-->
+          <div class="col-md-4 col-lg-4">
+            <a href="./img/img4.jpg">
+              <img src="./img/img4.jpg" class="img-fluid" alt="4º img">
+            </a>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <a href="./img/img5.jpg">
+              <img src="./img/img5.jpg" class="img-fluid" alt="5º img">
+            </a>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <a href="./img/img6.jpg">
+              <img src="./img/img6.jpg" class="img-fluid" alt="6º img">
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--Depoimentos dos Clientes-->
+      <section class="container-fluid p-3 mb-2" id="testimonial-area">
+        <div class="row" id="galeria-row">
+          <div class="col-12">
+            <h3 class="main-title">Depoimentos</h3>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="./img/Patrick Surv.jpg" alt="1">
+              <div class="card-body">
+                <h5 class="card-title">Patrick Surv</h5>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="card-text">
+                  Trabalhei com o Marcos, um cara motivado e dedicado na produção, ele conseguiu fazer as tracks
+                  muito rápido eentregou dentro do que havíamos combinado, ambiente aconchegante, desejo toda sorte
+                  do mundo na sua caminhada,e que outras pessoas possam passar pelo seu estúdio e produzirem algo
+                  de qualidade.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="./img/Kleverson Cunha.jpg" alt="2">
+              <div class="card-body">
+                <h5 class="card-title">Kleverson Cunha</h5>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="card-text">
+                  Gravar no ESTÚDIO V3RSUS pra mim foi e está sendo uma experiência única.
+                  A dedicação tem sido muito intensa o estúdio tem me servido muito bem, vale muito apena conhecer.
+                  A cada dia Deus o tem honrado muito pelo empenho e valorização que ESTÚDIO V3RSUS dá às nossas
+                  músicas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="./img/Bruno Spinelli.jpg" alt="3">
+              <div class="card-body">
+                <h5 class="card-title">Bruno Spinelli</h5>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="card-text">
+                  "O Estúdio é um lugar mágico, onde você chega com uma ideia na cabeça e sai com um sonho
+                  realizado. Pequeno, mas aconchegante. Se procura um lugar profissional com pessoas que
+                  amam o que fazem e fazem o que amam, esse é o lugar certo!!!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="./img/Bárbara Mendes.jpg" alt="4">
+              <div class="card-body">
+                <h5 class="card-title">Bárbara Mendes</h5>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="card-text">
+                  Expliquei a proposta para os profissionais do Estúdio, mostrei meu vídeo e quando retornou com as
+                  tracks para aprovação, eu me lembroque chorei de emoção. Esss profissionais traduziram em músicas
+                  tudo que eu queria transmitir.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Promoções e Novidades-->
+      <section id="news-area" class="container-fluid p-2 mb-3 bg-light">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <h3 class="main-title">Promoções e Novidades</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-12 col-md-12 col-lg-12">
+            <form action="">
+              <p>Assine nossos e-mail, receba nossas promoções e novidades do Estúdio</p>
+              <input type="email" class="form-control" id="email-input" name="email" placeholder="Envie o seu Emal:">
+              <input class="email p-2" type="submit" id="news-btn" value="enviar">
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <!--Contatos-->
+    <section id="contact-area" class="container-fluid p-3">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+          <h2 class="main-title">Entre contato com a V3RSUS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4 contact-box">
+          <i class="fas fa-envelope"></i>
+          <p><span class="contact-title">Envie um e-mail:</span> marcos.nazarios@gmail.com</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 contact-box">
+          <i class="fas fa-phone"></i>
+          <p><span class="contact-title">Ligue para:</span> (11) 99206-2969</p>
+          <p><span class="contact-title">Ou mande uma mensagem:
+              <a href="https://wa.me/5511992062969" class="whatsbutton">
+                <div class="border-whatsapp justify-content-center">
+                  <span class="fa fa-whatsapp zapstyle"></span>
+                  <span class="zapstyle">(11) 99206-2969</span>
+                </div>
+              </a></span></p>
+          <p><span class="contact-title">Horários:</span> 8:00 às 18:00 horas</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 contact-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><span class="contact-title">Endereço:</span> Rua Borromini Nº 457, Jardim Casablanca, São Paulo - SP
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 mx-auto" id="contact-form">
+          <p class="h3">Nos mande um E-mail</p>
+          <div class="icones">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="#" class="fa fa-facebook iconsHeader"></a></li>
+              <li class="nav-item"><a href="#" class="fa fa-twitter iconsHeader"></a></li>
+              <li class="nav-item"><a href="#" class="fa fa-youtube iconsHeader"></a></li>
+              <li class="nav-item"><a href="#" class="fa fa-instagram iconsHeader"></a></li>
+            </ul>
+          </div>
+          <form action="">
+            <input type="email" class="form-control mx-auto" placeholder="E-mail" name="email">
+            <input type="text" class="form-control mx-auto" placeholder="Assunto" name="Subject">
+            <textarea class="form-control mx-auto" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+            <input type="submit" class="main-btn" value="enviar">
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--copy-area-->
+    <section id="copy-area" class="container-fluid text-center p-1">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="m-0">Desenvolvido por alunos do Curso do Senac - Tsi - Marcel e João &copy; 2020</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
